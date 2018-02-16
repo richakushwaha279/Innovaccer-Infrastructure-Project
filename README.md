@@ -51,7 +51,7 @@ It basically has three modes:
 	Function to sort the files on Desktop according to their extension, uses moveFAEhelper(), DisplayFOD(), sortATD() function.
 
 ## COMMAND TO RUN:
-python Infra_richa_iiit.py
+python Infra_manage.py
 
 ## LIBRARIES USED:
 1) os
