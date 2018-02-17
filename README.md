@@ -9,26 +9,26 @@ Its a tool that scans your PC's files and folders and displays the top files acc
 ## Working Flow:
 It basically has three modes:
 1)MAIN MENU MODE:
-	The tool starts in this mode. Here the following options are provided:
-	1) Display top n files on the system(Enters into Scanning Mode).
-	2) Sort files on Desktop according to extensions(Enters into Sorting Mode).
-	3) List the duplicate files on your system.(ADDITIONAL)
-	4) Allow remote user to download files on this PC.(ADDITIONAL)
-	5) Exit.
+The tool starts in this mode. Here the following options are provided:
+1) Display top n files on the system(Enters into Scanning Mode).
+2) Sort files on Desktop according to extensions(Enters into Sorting Mode).
+3) List the duplicate files on your system.(ADDITIONAL)
+4) Allow remote user to download files on this PC.(ADDITIONAL)
+5) Exit.
 
 2)SCANNING MODE:
-	It displays the top n files on the system and provides additional functionalities like:
-	1) Enter how many top files to be displayed according to their sizes. 
-	2) Sort these top n files in the order of least to most recently used file.(ADDITIONAL)
-	3) Exit SCANNING MODE.
+It displays the top n files on the system and provides additional functionalities like:
+1) Enter how many top files to be displayed according to their sizes. 
+2) Sort these top n files in the order of least to most recently used file.(ADDITIONAL)
+3) Exit SCANNING MODE.
 
 3)SORTING MODE:
-	It provides the kind of sorting among following the user want or just display the content of Desktop.
-	1) Sort according to only valid extensions. (ADDITIONAL)
-	2) Sort according to any kinds of extensions.
-	3) List Files and Folders on Desktop. (ADDITIONAL)
-	4) Sort according to the type of data they hold(Works after using either of the first two options) (ADDITIONAL)
-	5) Exit SORTING MODE.
+It provides the kind of sorting among following the user want or just display the content of Desktop.
+1) Sort according to only valid extensions. (ADDITIONAL)
+2) Sort according to any kinds of extensions.
+3) List Files and Folders on Desktop. (ADDITIONAL)
+4) Sort according to the type of data they hold(Works after using either of the first two options) (ADDITIONAL)
+5) Exit SORTING MODE.
 
 ## ADDITIONAL FUNCTIONS:
 1) get_ip():
