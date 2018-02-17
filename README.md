@@ -8,6 +8,7 @@ Its a tool that scans your PC's files and folders and displays the top files acc
 
 ## Working Flow:
 It basically has three modes:
+
 1)MAIN MENU MODE:
 The tool starts in this mode. Here the following options are provided:
 1) Display top n files on the system(Enters into Scanning Mode).
@@ -46,7 +47,7 @@ It provides the kind of sorting among following the user want or just display th
 7) sortATD():
 	Takes path and sorts the files on that part according to the data they hold like images etc.(Works after sorting them according to their extensions)
 8) printTNF():
-	Function to print top files of the system. Takes user to SCANNING MODE. It uses zip_file() function.
+	Function to print top files of the system. Takes user to SCANNING MODE.
 9) moveFAE():
 	Function to sort the files on Desktop according to their extension, uses moveFAEhelper(), DisplayFOD(), sortATD() function.
 
