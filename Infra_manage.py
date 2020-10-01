@@ -8,6 +8,7 @@ from subprocess import call
 from ntpath import split
 from ntpath import basename
 
+#define chunk_size 1024
 
 #path to scan the top 'n' files of the system and also to find rhe duplicates!
 #and delimiter to use!
@@ -45,7 +46,7 @@ def on_server():
 #function to read the file chunkwise!
 def read_chunks(fd):
 	while(1):
-		chunk = fd.read(1024)
+		chunk = fd.read(chunk_size)
 		if not chunk:
 			return
 		yield chunk
