@@ -43,7 +43,7 @@ def on_server():
 	else:
 		call(['gnome-terminal','-e', 'bash file.sh'])
 
-#function to read the file chunkwise!
+#function to read the file in chunks!
 def read_chunks(fd):
 	while(1):
 		chunk = fd.read(chunk_size)
