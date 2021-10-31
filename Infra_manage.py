@@ -116,6 +116,8 @@ def sortATD(path):
 	EXECUTABLES = ['APK','BIN','CGI','PL','COM','EXE','GADGET','JAR','WSF' ]
 	COMPRESSED = ['7Z','ARJ','DEB','PKG','RAR','RPM','TAR','GZ','Z','ZIP']
 	DATA = ['CSV','DAT','DB','DBF','LOG','MDB','SAV','SQL','XML','JSON']
+	ENCODING = [H264, H265] # added encoding list as well
+	
 	list_of_folders = os.listdir(path)
 	list_of_folders[:] = [d for d in list_of_folders if not d[0] == '.']
 	#print list_of_folders
@@ -214,7 +216,7 @@ def moveFAE():
 	'ICO','INI','LNK','MSI','SYS','TMP','ODS','XLR','XLS','XLSX','PY','C','CLASS','CPP','CS','H','PHP','JAVA','SH','SWIFT','VB',
 	'KEY','ODP','PPS','PPT','PPTX','ASP','ASPX','CER','CFM','CGI','PL','CSS','HTM','HTML','JS','JSP','PART','RSS','XHTML',
 	'APK','BIN','CGI','PL','COM','EXE','GADGET','JAR','WSF','7Z','ARJ','DEB','PKG','RAR','RPM','TAR','GZ','Z','ZIP'
-	,'CSV','DAT','DB','DBF','LOG','MDB','SAV','SQL','XML','JSON']
+	,'CSV','DAT','DB','DBF','LOG','MDB','SAV','SQL','XML','JSON', 'H264', 'H265']
 	home_name = os.path.expanduser('~')
 	path = home_name + '/Desktop/'
 	#list of all files and directories on Desktop
