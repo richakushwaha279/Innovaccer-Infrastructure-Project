@@ -7,6 +7,7 @@ import socket
 from subprocess import call
 from ntpath import split
 from ntpath import basename
+import sys
 
 #define chunk_size 1024
 
